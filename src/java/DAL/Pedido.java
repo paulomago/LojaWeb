@@ -15,7 +15,7 @@ public class Pedido {
     private int codigo;
     private List<Produto> produtos;
     private Cliente cliente;
-    private FormaPagamento formaPagamento;
+    private String formaPagamento;
     private String enderecoEntrega;
 
     /**
@@ -63,14 +63,14 @@ public class Pedido {
     /**
      * @return the formaPagamento
      */
-    public FormaPagamento getFormaPagamento() {
+    public String getFormaPagamento() {
         return formaPagamento;
     }
 
     /**
      * @param formaPagamento the formaPagamento to set
      */
-    public void setFormaPagamento(FormaPagamento formaPagamento) {
+    public void setFormaPagamento(String formaPagamento) {
         this.formaPagamento = formaPagamento;
     }
 
